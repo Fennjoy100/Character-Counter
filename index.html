@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Character Counter | Real-time Analysis</title>
+    <meta name="description" content="A beautiful and modern real-time character counter for authors, developers, and social media managers.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <main class="container">
+        <div class="counter-card" id="counter-card">
+            <header>
+                <h1>Character Counter</h1>
+                <p>Type or paste your text below to get instant metrics.</p>
+            </header>
+            
+            <div class="input-wrapper">
+                <textarea 
+                    id="text-input" 
+                    placeholder="Start typing your message..." 
+                    maxlength="500"></textarea>
+                <div class="focus-border"></div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Total Characters</span>
+                    <span class="stat-value" id="total-chars">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Remaining</span>
+                    <span class="stat-value secondary" id="remaining-chars">500</span>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+
+            <footer>
+                <span class="limit-text">Max Limit: 500 characters</span>
+            </footer>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
