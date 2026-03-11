@@ -81,19 +81,25 @@ Character-Counter/
 ```
 
 📚 What I Learned
+
 **DOM Manipulation**
+
 Improved my understanding of selecting and updating elements dynamically using JavaScript.
 
 **Event Handling**
+
 Implemented real-time input tracking using the input event listener.
 
 **Interactive UI Design**
+
 Learned how to create responsive feedback such as progress bars and color indicators.
 
 **UX Improvements**
+
 Added animations and visual feedback to enhance user experience.
 
 **Clean Front-End Structure**
+
 Practiced organizing HTML, CSS, and JavaScript into maintainable project files.
 
 🚀 How It Can Be Improved
